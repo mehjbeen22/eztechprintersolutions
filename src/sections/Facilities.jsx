@@ -16,7 +16,7 @@ const Facilities = () => {
   return (
     <main>
       <section className="bg-gray-100 p-8 shadow-inner">
-        <div className="flex gap-6 items-center justify-center flex-col">
+        <div className="flex gap-6 items-center justify-center  flex-col">
           <h2 className="text-3xl font-semibold text-center text-teal-600">
             Everything you get, in a nutshell
           </h2>
@@ -32,8 +32,8 @@ const Facilities = () => {
         </div>
       </section>
 
-      <div className="flex justify-center p-5">
-        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8 w-[80%]">
+      <div className="flex justify-center items-center p-5">
+        <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8  w-[90%] ">
           <div className="bg-white flex justify-center items-center flex-col rounded-lg shadow-lg p-4 transform transition duration-300 hover:scale-105">
             <SupportAgentIcon sx={{ fontSize: '4.5rem', color: '#0f766e' }} />
             <p className="text-center mt-2 text-lg font-bold text-teal-600">
@@ -53,17 +53,6 @@ const Facilities = () => {
             <p className="text-center text-teal-600">
               Get free 'round-the-clock' support for computers, printers, and
               more.
-            </p>
-          </div>
-
-          <div className="bg-white flex justify-center items-center flex-col rounded-lg shadow-lg p-4 transform transition duration-300 hover:scale-105">
-            <AcUnitIcon sx={{ fontSize: '4rem', color: '#0f766e' }} />
-            <p className="text-center mt-2 text-lg font-bold text-teal-600">
-              Premium Antivirus Software
-            </p>
-            <p className="text-center text-teal-600">
-              We've partnered with MalwareBytes to offer the best in protection
-              against computer threats.
             </p>
           </div>
 
