@@ -1,6 +1,5 @@
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 import ChatIcon from '@mui/icons-material/Chat';
-import AcUnitIcon from '@mui/icons-material/AcUnit';
 import VerifiedUserIcon from '@mui/icons-material/VerifiedUser';
 import CheckIcon from '@mui/icons-material/Check';
 
